@@ -1,10 +1,10 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://portfolio-omega-ten-87.vercel.app/" target="_blank">VikasKumar.tech</a>
+  <a href="https://portfolio-omega-ten-87.vercel.app/" target="_blank">VK.tech</a>
 </h2>
 
 <div align="center">
-  <img alt="Demo" src="./Images/readme-imgage.png" />
+  <img alt="Demo" src="./Images/readme-image.png" />
 </div>
 
 <br/>
