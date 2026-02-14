@@ -56,7 +56,7 @@ function Projects() {
               imgPath={ANNModel}
               isBlog={false}
               title="FlowStress-Prediction-ANN-Model"
-              description="This project builds a deep learning–based Artificial Neural Network (ANN) to predict Flow Stress using engineered features from Strain, Strain Rate, and Temperature. The model automatically selects the best architecture using neuron-search optimization and achieves high accuracy through MinMax scaling, early stopping, and extensive evaluation."
+              description="This project builds a deep learning-based Artificial Neural Network (ANN) to predict Flow Stress using engineered features from Strain, Strain Rate, and Temperature. The model automatically selects the best architecture using neuron-search optimization and achieves high accuracy through MinMax scaling, early stopping, and extensive evaluation."
               ghLink="https://github.com/VikasKumar281/FlowStress-Prediction-ANN-Model"
             />
           </Col>

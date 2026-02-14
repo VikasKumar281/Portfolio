@@ -812,3 +812,32 @@ button:focus {
   transform: translateY(-100%);
   transition: transform 0.3s ease-in-out;
 }
+
+
+/* Contact Section */
+.contact-wrapper {
+  padding: 60px 0;
+  background: transparent;
+}
+
+.contact-card {
+  background: linear-gradient(135deg, #8e8ad8, #a7a3e9);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 700px;
+  max-height: 500px;
+  margin: auto;
+}
+
+.contact-card .form-control {
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+}
+
+.contact-card button {
+  background: linear-gradient(135deg, #6c63ff, #5a54e8);
+  border: none;
+  padding: 8px 30px;
+  border-radius: 8px;
+}
