@@ -6,6 +6,8 @@ import DevTinder from "../../Assets/Projects/DevTinder.png";
 import quickstay from "../../Assets/Projects/QuickStay.png";
 import MyMart from "../../Assets/Projects/MyMart.png";
 import ANNModel from "../../Assets/Projects/ANN model.png";
+import PitchVisualizer from "../../Assets/Projects/Pitch Visualizer.png";
+import EmpathyEngine from "../../Assets/Projects/Empathy Engine.png";
 
 function Projects() {
   return (
@@ -60,6 +62,29 @@ function Projects() {
               ghLink="https://github.com/VikasKumar281/FlowStress-Prediction-ANN-Model"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PitchVisualizer}
+              isBlog={false}
+              title="Pitch Visualizer"
+              description="This project builds an AI-powered system to transform raw startup ideas into structured and investor-ready pitch content. It processes user input and generates key components such as problem statements, solutions, target audience, and value propositions using natural language processing and prompt engineering. The system helps users visualize and refine their ideas into clear, organized, and presentation-ready insights."              
+              ghLink="https://github.com/VikasKumar281/Pitch-Visualizer"
+              demoLink="https://pitch-visualizer-c4zv.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={EmpathyEngine}
+              isBlog={false}
+              title="Empathy Engine"
+              description="This project builds an AI-based emotion detection system to classify human emotions from textual input. It leverages transformer-based models to understand context and identify sentiments such as happiness, sadness, anger, and fear with high accuracy. The system enables more empathetic and human-like interactions, making it useful for chatbots, customer support, and feedback analysis applications."
+              ghLink="https://github.com/VikasKumar281/Empathy-Engine"
+              demoLink="https://empathy-engine-cgyl.onrender.com/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
