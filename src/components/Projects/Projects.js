@@ -13,7 +13,8 @@ import cognifyAI from "../../Assets/Projects/cognifyAI.png";
 import neuroSeg from "../../Assets/Projects/neuroSeg.png";
 import airflowDataPipeline from "../../Assets/Projects/airflowDataPipeline.png";
 import yelpApiETL from "../../Assets/Projects/yelpApiETL.png";
-import ANNModel2 from "../../Assets/Projects/ANN model.png";
+import ANNModel2 from "../../Assets/Projects/ANNModel2.png";
+import syncStage from "../../Assets/Projects/syncstage.png";
 
 function Projects() {
   return (
@@ -67,6 +68,17 @@ function Projects() {
               description="CognifyAI is an intelligent RAG and Speech AI assistant built with Python and Streamlit that enables users to interact with documents and audio through semantic search, transcription, and contextual responses. It combines document ingestion with chunking and embeddings, hybrid semantic and keyword retrieval, Whisper-based speech processing, conversation memory, and Supabase for persistent storage, with Docker support for reproducible deployment."
               ghLink="https://github.com/VikasKumar281/CognifyAI"
               demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={syncStage}
+              isBlog={false}
+              title="SyncStage"
+              description="Built a real-time multi-display media sequencing platform using React and Go, enabling independent playlists with synchronized time-based playback across multiple displays. Implemented REST APIs, Server-Sent Events (SSE) for live state updates, server-time calibration for precise synchronization, PostgreSQL/Neon persistence, and Docker-based production deployment on Render."
+              ghLink="https://github.com/VikasKumar281/SyncStage"
+              demoLink="https://syncstage.onrender.com/"
             />
           </Col>
           
