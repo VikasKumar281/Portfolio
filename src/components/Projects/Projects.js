@@ -8,12 +8,12 @@ import MyMart from "../../Assets/Projects/MyMart.png";
 import ANNModel from "../../Assets/Projects/ANN model.png";
 import PitchVisualizer from "../../Assets/Projects/Pitch Visualizer.png";
 import EmpathyEngine from "../../Assets/Projects/Empathy Engine.png";
-import supportAgentAI from "../../Assets/Projects/SupportAgentAI.png";
-import cognifyAI from "../../Assets/Projects/CognifyAI.png";
-import neuroSeg from "../../Assets/Projects/NeuroSeg.png";
-import airflowDataPipeline from "../../Assets/Projects/AirflowDataPipeline.png";
-import yelpApiETL from "../../Assets/Projects/YelpApiETL.png";
-import ANNModel2 from "../../Assets/Projects/ANNModel2.png";
+import supportAgentAI from "../../Assets/Projects/supportAgentAI.png";
+import cognifyAI from "../../Assets/Projects/cognifyAI.png";
+import neuroSeg from "../../Assets/Projects/neuroSeg.png";
+import airflowDataPipeline from "../../Assets/Projects/airflowDataPipeline.png";
+import yelpApiETL from "../../Assets/Projects/yelpApiETL.png";
+import ANNModel2 from "../../Assets/Projects/ANN model.png";
 
 function Projects() {
   return (
